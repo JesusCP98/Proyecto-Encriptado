@@ -1,0 +1,39 @@
+<!DOCTYPE html><!--  we indicate we will use html5  -->
+<html lang="es"><!--  we indicate that using the language Español -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+     
+        <link rel="stylesheet" href="style.css"> 
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"  rel="stylesheet">
+        <title>Encriptado</title>
+    </head>
+
+    <body>
+
+        
+        <header>
+            <div class="caja"> 
+                <h1> <img src="Imagenes/Logo.png" alt="logo de alura"> </h1> <!--property "alt" its a text alternative, where we indicate to the user the information the pircture-->
+            </div>
+         </header>
+       
+         <div class="container">
+                    <textarea name="" id="mensaje" cols="40" rows="13" class="caja" placeholder="Ingrese el texto aqui"></textarea>
+                    <textarea name="" id="hol" cols="40" rows="13" class="caja" placeholder="Resultado del texto"></textarea>
+                    
+                    <p class="Copyright">&#9824 Solo letras minusculas y sin acentos</p>
+                    <div class="chute container__botones">
+                        <button onclick="Encriptar();" class="container__boton" id="Encriptar">Encriptar! </button>
+                        <button onclick="Desencriptar();" class="container__boton" id="Desencriptar" >Desencriptar!</button>
+                        <button onclick="copiarAlPortapapeles();" class="container__boton" id="copiar">Copiar!</button>
+                    </div>
+        </div>
+
+     <script src="app.js"></script>
+    </body>
+</html>
+
